@@ -22,6 +22,9 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 let skip_defaults_vim=1
 let mapleader = ','
 
+" NerdTree Toggle Cmd/Ctrl + n
+nmap <C-n> :NERDTreeToggle<CR>
+
 " show branchname in lightline
 let g:lightline = {
       \ 'colorscheme': 'wombat',
