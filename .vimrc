@@ -20,10 +20,21 @@ au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 let skip_defaults_vim=1
+
+" set leader for nerdcommander # ,cc & ,cu
 let mapleader = ','
 
-" NerdTree Toggle Cmd/Ctrl + n
+" NerdTree Toggle Strg + n
 nmap <C-n> :NERDTreeToggle<CR>
+
+" CTRL-Tab is next tab
+noremap <C-Tab> :<C-U>tabnext<CR>
+inoremap <C-Tab> <C-\><C-N>:tabnext<CR>
+cnoremap <C-Tab> <C-C>:tabnext<CR>
+" CTRL-SHIFT-Tab is previous tab
+noremap <C-S-Tab> :<C-U>tabprevious<CR>
+inoremap <C-S-Tab> <C-\><C-N>:tabprevious<CR>
+cnoremap <C-S-Tab> <C-C>:tabprevious<CR>
 
 " show branchname in lightline
 let g:lightline = {
