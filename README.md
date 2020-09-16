@@ -19,15 +19,15 @@ Symlink all Files & Folders back to your **~**:
 ### NERDTree
 
 |Command|Description|
-|--|--|--|
-|Toggle On/Off| `Strg + n`
-|Search in File Tree| `/searchstring`
-|Open File| `o`
-|Open Splitfile| `s`
-|Toggle Splitfile-Panes | `Strg + ww`
-|Open File in new Tab | `t`
-|Next Tab | `gt`
-|Prior Tab | `gT`
+|--|--|
+|Toggle On/Off| `Strg + n`|
+|Search in File Tree| `/searchstring`|
+|Open File| `o`|
+|Open Splitfile| `s`|
+|Toggle Splitfile-Panes | `Strg + ww`|
+|Open File in new Tab | `t`|
+|Next Tab | `gt`|
+|Prior Tab | `gT`|
 
 ### lightline
 
@@ -40,9 +40,9 @@ Simple Statusline:
 Use visual mode to mark code
 
 |Command|Description|
-|--|--|--|
-|Out | `, + cc`
-|In | `, + cu`
+|--|--|
+|Out | `, + cc`|
+|In | `, + cu`|
 
 ### gitgutter
 
