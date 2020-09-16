@@ -13,6 +13,8 @@ set hlsearch
 syn on
 set incsearch
 set updatetime=100
+colorscheme gruvbox
+set noshowmode " because of lightline
 
 " Don't write backup file if vim is being called by "crontab -e"
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
@@ -26,6 +28,7 @@ let mapleader = ','
 
 " NerdTree Toggle Strg + n
 nmap <C-n> :NERDTreeToggle<CR>
+
 " Show Dotfiles
 let NERDTreeShowHidden=1
 
@@ -40,13 +43,3 @@ let g:lightline = {
       \   'gitbranch': 'FugitiveHead'
       \ },
       \ }
-
-" show absolute path in lightline
-let g:lightline = {
-      \ 'component_function': {
-      \   'filename': 'LightlineFilename'
-      \ }
-      \ }
-function! LightlineFilename()
-  return expand('%:p:h')
-endfunction
