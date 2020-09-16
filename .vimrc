@@ -22,6 +22,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 let skip_defaults_vim=1
 let mapleader = ','
 
+" show branchname in lightline
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
@@ -32,3 +33,13 @@ let g:lightline = {
       \   'gitbranch': 'FugitiveHead'
       \ },
       \ }
+
+" show absolute path in lightline
+let g:lightline = {
+      \ 'component_function': {
+      \   'filename': 'LightlineFilename'
+      \ }
+      \ }
+function! LightlineFilename()
+  return expand('%:p:h')
+endfunction
