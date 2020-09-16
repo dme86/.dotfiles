@@ -17,37 +17,17 @@ Symlink all Files & Folders back to your **~**:
     mapleader = ','
 
 ### NERDTree
-Toggle On/Off
 
-> Strg + n
-
-Search File Tree
-
-> /searchstring
-
-Open File
-
-> o
-
-Open Splitfile
-
-> s
-
-Toggle between Splitfile Panes
-
-> Strg + ww
-
-Open File in new Tab
-
-> t
-
-Next tab:
-
-> gt
-
-Prior tab:
-
-> gT
+|Command|Description|
+|--|--|--|
+|Toggle On/Off| `Strg + n`
+|Search in File Tree| `/searchstring`
+|Open File| `o`
+|Open Splitfile| `s`
+|Toggle Splitfile-Panes | `Strg + ww`
+|Open File in new Tab | `t`
+|Next Tab | `gt`
+|Prior Tab | `gT`
 
 ### lightline
 
@@ -58,13 +38,11 @@ Simple Statusline:
 
 ### nerdcommenter
 Use visual mode to mark code
-Comment-Out:
 
-> , + cc
-
-Comment-In:
-
-> , + cu
+|Command|Description|
+|--|--|--|
+|Out | `, + cc`
+|In | `, + cu`
 
 ### gitgutter
 
