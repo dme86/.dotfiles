@@ -21,3 +21,14 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 let skip_defaults_vim=1
 let mapleader = ','
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
+      \ }
