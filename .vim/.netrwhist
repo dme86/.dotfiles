@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/meierdan/dico/docker/devrepo/.git'
+let g:netrw_dirhist_2='/Users/meierdan/dico/tf/angry-carrot/.git'
+let g:netrw_dirhist_3='/Users/meierdan/docker/anotherwp/config/php.conf.uploads.ini'
+let g:netrw_dirhist_4='/Users/meierdan/dico/tf/aws/dico_master/aws/sub/gsd'
+let g:netrw_dirhist_5='/Users/meierdan/dico/VWGSD/frontend/.git'
+let g:netrw_dirhist_6='/Users/meierdan/dico/VWGSD/backend/.git'
+let g:netrw_dirhist_7='/Users/meierdan/dico/VWGSD/github/tf/terraform/environments/vwgsd'
+let g:netrw_dirhist_8='/Users/meierdan/dico/VWGSD/github/tf/terraform'
