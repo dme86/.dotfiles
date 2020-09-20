@@ -189,8 +189,28 @@ awful.screen.connect_for_each_screen(function(s)
     -- Wallpaper
     set_wallpaper(s)
 
-    -- Each screen has its own tag table.
-    awful.tag({ "urxvt", "www", "chat", "4", "5", "6" }, s, awful.layout.layouts[1])
+-- setting tag properties like: https://awesomewm.org/doc/api/classes/tag.html
+--
+    awful.tag.add("urxvt", {
+    layout = awful.layout.suit.max,
+    screen = s,
+    selected = true,
+    })
+
+    awful.tag.add("www", {
+    layout = awful.layout.suit.max,
+    screen = s,
+    })
+
+    awful.tag.add("chat", {
+    layout = awful.layout.suit.max,
+    screen = s,
+    })
+
+    awful.tag.add("free", {
+    layout = awful.layout.suit.max,
+    screen = s,
+    })
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
