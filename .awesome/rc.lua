@@ -513,6 +513,7 @@ awful.rules.rules = {
     },
 
     -- use full space in urxvt, see: https://stackoverflow.com/questions/28369999/awesome-wm-terminal-window-doesnt-take-full-space
+    -- set font size to 15
     size_hints_honor = false
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
