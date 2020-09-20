@@ -190,7 +190,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
 -- setting tag properties like: https://awesomewm.org/doc/api/classes/tag.html
---
+-- & layouts, see: https://awesomewm.org/doc/api/libraries/awful.layout.html#Client_layouts
     awful.tag.add("urxvt", {
     layout = awful.layout.suit.corner.nw,
     screen = s,
