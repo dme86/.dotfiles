@@ -1,4 +1,4 @@
-URxvt.font:xft:Fira Mono:style=Medium:pixelsize=18
+URxvt.font:xft:Fira Mono:style=Medium:pixelsize=15
 URxvt.scrollBar: false
 
 ! hard contrast: *background: #1d2021

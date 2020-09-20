@@ -512,6 +512,9 @@ awful.rules.rules = {
       }, properties = { titlebars_enabled = false }
     },
 
+    -- use full space in urxvt, see: https://stackoverflow.com/questions/28369999/awesome-wm-terminal-window-doesnt-take-full-space
+    size_hints_honor = false
+
     -- Set Firefox to always map on the tag named "2" on screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { screen = 1, tag = "2" } },
