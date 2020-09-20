@@ -179,6 +179,8 @@ end
 beautiful.useless_gap = 5
 -- set gaps (single window)
 beautiful.gap_single_client = true
+-- see: https://pbs.twimg.com/media/EiXYtzVX0AAGpNu?format=jpg&name=large
+
 
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
 screen.connect_signal("property::geometry", set_wallpaper)
@@ -485,6 +487,7 @@ awful.rules.rules = {
       }, properties = { floating = true }},
 
     -- Add titlebars to normal clients and dialogs
+    -- see: https://pbs.twimg.com/media/EiXYtzVX0AAGpNu?format=jpg&name=large
     { rule_any = {type = { "normal", "dialog" }
       }, properties = { titlebars_enabled = false }
     },
