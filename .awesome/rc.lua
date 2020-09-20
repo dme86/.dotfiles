@@ -175,6 +175,11 @@ local function set_wallpaper(s)
     end
 end
 
+-- set gaps (multiple windows)
+beautiful.useless_gap = 5
+-- set gaps (single window)
+beautiful.gap_single_client = true
+
 -- Re-set wallpaper when a screen's geometry changes (e.g. different resolution)
 screen.connect_signal("property::geometry", set_wallpaper)
 
@@ -183,7 +188,7 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    awful.tag({ "urxvt", "www", "files", "4", "5", "6" }, s, awful.layout.layouts[1])
+    awful.tag({ "urxvt", "www", "chat", "4", "5", "6" }, s, awful.layout.layouts[1])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
