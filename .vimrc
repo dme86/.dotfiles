@@ -16,6 +16,7 @@ set updatetime=100
 colorscheme gruvbox
 set bg=dark
 set noshowmode " because of lightline
+set mouse=a
 
 " Don't write backup file if vim is being called by "crontab -e"
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
