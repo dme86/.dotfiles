@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/meierdan/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh/"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,5 +110,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias tmpshell="docker run -it alpine:latest /bin/sh"
-alias docker_prune="docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)"
+#alias tmpshell="docker run -it alpine:latest /bin/sh"
+#alias docker_prune="docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)"
