@@ -37,6 +37,7 @@ Simple Statusline:
 ![enter image description here](https://pbs.twimg.com/media/EiCififXkAUmbxK?format=jpg&name=large)
 
 ### nerdcommenter
+
 Use visual mode to mark code
 
 |Command|Description|
