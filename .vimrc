@@ -5,6 +5,22 @@ filetype plugin indent on
 set modelines=0		" CVE-2007-2438
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='Google Chrome'
+let g:webdevicons_enable = 1
+let g:webdevicons_enable_nerdtree = 1
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+                \ 'Modified'  :'✹',
+                \ 'Staged'    :'✚',
+                \ 'Untracked' :'✭',
+                \ 'Renamed'   :'➜',
+                \ 'Unmerged'  :'═',
+                \ 'Deleted'   :'✖',
+                \ 'Dirty'     :'✗',
+                \ 'Ignored'   :'☒',
+                \ 'Clean'     :'✔︎',
+                \ 'Unknown'   :'?',
+                \ }
+let g:NERDTreeGitStatusUseNerdFonts = 1
+
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
