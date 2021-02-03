@@ -3,6 +3,8 @@ filetype plugin indent on
 
 " Configuration file for vim
 set modelines=0		" CVE-2007-2438
+let vim_markdown_preview_github=1
+let vim_markdown_preview_browser='Google Chrome'
 
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
