@@ -1,6 +1,9 @@
 URxvt.font:xft:Fira Mono:style=Medium:pixelsize=15
 URxvt.scrollBar: false
 
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
 ! hard contrast: *background: #1d2021
 *background: #282828
 ! soft contrast: *background: #32302f
